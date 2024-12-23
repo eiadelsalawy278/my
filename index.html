@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة الميزان الأسطورية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="balance">
+            <div class="arm">
+                <div class="pan left" id="leftPan"></div>
+                <div class="unique-word" id="uniqueWord">فريدة</div>
+                <div class="pan right" id="rightPan"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="addItem('apple')">تفاحة 🍎</button>
+            <button onclick="addItem('gold')">ذهب 🪙</button>
+            <button onclick="addItem('diamond')">ألماس 💎</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
